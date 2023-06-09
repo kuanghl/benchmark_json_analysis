@@ -25,7 +25,7 @@ The main challenge with automating performance monitoring is the variation in pe
 
 A sample report:
 
-![img](./charts.PNG)
+![img](https://github.com/kuanghl/benchmark_json_analysis/blob/master/charts.png)
 
 # The algorithm
 
