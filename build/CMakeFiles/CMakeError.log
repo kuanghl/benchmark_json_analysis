@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6c67/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6c67.dir/build.make CMakeFiles/cmTC_b6c67.dir/build
+make[1]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6c67.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_b6c67.dir/src.cxx.o -c /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_b6c67.dir/build.make:85: CMakeFiles/cmTC_b6c67.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_b6c67/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13b33/fast && /usr/bin/make  -f CMakeFiles/cmTC_13b33.dir/build.make CMakeFiles/cmTC_13b33.dir/build
+make[1]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13b33.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_13b33.dir/src.cxx.o -c /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+make[1]: *** [CMakeFiles/cmTC_13b33.dir/build.make:85: CMakeFiles/cmTC_13b33.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_13b33/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a97f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_a97f3.dir/build.make CMakeFiles/cmTC_a97f3.dir/build
+make[1]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a97f3.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_a97f3.dir/src.cxx.o -c /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+c++: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+make[1]: *** [CMakeFiles/cmTC_a97f3.dir/build.make:85: CMakeFiles/cmTC_a97f3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_a97f3/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df48f/fast && /usr/bin/make  -f CMakeFiles/cmTC_df48f.dir/build.make CMakeFiles/cmTC_df48f.dir/build
+make[1]: Entering directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df48f.dir/src.cxx.o
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD -std=c++11 -o CMakeFiles/cmTC_df48f.dir/src.cxx.o -c /home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df48f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df48f.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_df48f.dir/src.cxx.o -o cmTC_df48f 
+/usr/bin/ld: CMakeFiles/cmTC_df48f.dir/src.cxx.o: in function `main':
+src.cxx:(.text+0x3e): undefined reference to `pthread_create'
+/usr/bin/ld: src.cxx:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.cxx:(.text+0x56): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.cxx:(.text+0x67): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_df48f.dir/build.make:106: cmTC_df48f] Error 1
+make[1]: Leaving directory '/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_df48f/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

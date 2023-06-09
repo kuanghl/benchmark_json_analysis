@@ -1,0 +1,52 @@
+{
+  "context": {
+    "date": "2023-06-09T12:57:48+08:00",
+    "host_name": "azurezhfpga2",
+    "executable": "./max_sub_array",
+    "num_cpus": 6,
+    "mhz_per_cpu": 3600,
+    "cpu_scaling_enabled": true,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 524288,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 16777216,
+        "num_sharing": 3
+      }
+    ],
+    "load_avg": [1.75,1.48,1.38],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "BM_greedy",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_greedy",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 50338,
+      "real_time": 1.3855599050442323e+04,
+      "cpu_time": 1.3851765465453534e+04,
+      "time_unit": "ns"
+    }

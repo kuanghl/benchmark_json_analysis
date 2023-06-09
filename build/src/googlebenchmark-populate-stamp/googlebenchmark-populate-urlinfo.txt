@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/kuanghongliang/Documents/vscode_projects/kusr_code/perf/bbenchmark/benchmark_monitor/benchmark-1.8.0.zip'
+tag=''

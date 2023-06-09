@@ -1,0 +1,68 @@
+{
+  "context": {
+    "date": "2023-06-09T12:57:28+08:00",
+    "host_name": "azurezhfpga2",
+    "executable": "./max_sub_array",
+    "num_cpus": 6,
+    "mhz_per_cpu": 3600,
+    "cpu_scaling_enabled": true,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 524288,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 16777216,
+        "num_sharing": 3
+      }
+    ],
+    "load_avg": [2.24,1.55,1.4],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "BM_greedy",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_greedy",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 50434,
+      "real_time": 1.3861394832830829e+04,
+      "cpu_time": 1.3858186858071938e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_logarithmic",
+      "family_index": 1,
+      "per_family_instance_index": 0,
+      "run_name": "BM_logarithmic",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 204784,
+      "real_time": 3.4068210846542488e+03,
+      "cpu_time": 3.4060390020704745e+03,
+      "time_unit": "ns"
+    }
+  ]
+}

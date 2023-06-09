@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/max_sub_array.dir/main.cpp.o -o max_sub_array  _deps/googlebenchmark-build/src/libbenchmark.a -pthread -lrt 
